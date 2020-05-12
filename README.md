@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## 微信小程序 WeUI使用
 
-You can use the [editor on GitHub](https://github.com/kotocean/notes/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+仅使用weui-wxss的样式，也可以按需引入component组件使用。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kotocean/notes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### 仅使用weui-wxss样式
+先打开两个链接，
++ [weui-wxss](https://github.com/Tencent/weui-wxss/)
++ [WeUI组件库预览-小程序码](https://developers.weixin.qq.com/miniprogram/dev/extended/weui/)
+打开两个页面之后，继续以下的操作。
+1. 打开weui-wxss的样式仓库中的master/dist/example，可以看到很多组件的使用样例
+2. 使用手机微信扫描小程序码，查看组件的样式
+3. 根据样式，找到weui-wxss的样例，查看使用到的样式
+4. 拉取weui-wxss源代码，并把[dist/style](https://github.com/Tencent/weui-wxss/tree/master/dist/style)目录下的文件放到小程序的style目录中，然后在app.wxss中使用import导入
+5. 找到目标的样式，拷贝、粘贴到自己的代码中，即可
+通过以上几步，可以定位到目标组件的样式，然后，就可以自己使用了。
