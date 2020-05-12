@@ -12,4 +12,7 @@
 3. 根据样式，找到weui-wxss的样例，查看使用到的样式
 4. 拉取weui-wxss源代码，并把[dist/style](https://github.com/Tencent/weui-wxss/tree/master/dist/style)目录下的文件放到小程序的style目录中，然后在app.wxss中使用import导入
 5. 找到目标的样式，拷贝、粘贴到自己的代码中，即可
-通过以上几步，可以定位到目标组件的样式，然后，就可以自己使用了。
+通过以上几步，可以定位到目标组件的样式，然后，就可使用weui的样式。
+
+### 使用weui的小程序组件
+组件的源代码，可参见[weui-miniprogram](https://github.com/wechat-miniprogram/weui-miniprogram)。小程序云开发，可以手动安装需要的组件。
